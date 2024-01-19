@@ -30,5 +30,26 @@ public class Linked_List
            System.out.println(ll3.poll());
            System.out.println(ll3);
 
+           LinkedList ll4=new LinkedList();
+           ll4.add(100);
+           ll4.add(200);
+           ll4.add(300);
+           ll4.add(300);
+           System.out.println(ll4);
+
+           System.out.println(ll4.indexOf(300));
+           System.out.println(ll4.get(0));
+           System.out.println(ll4.lastIndexOf(300));
+           System.out.println(ll4.getFirst());
+           System.out.println(ll4.getLast());
+
+           ll4.push(1);
+           System.out.println(ll4);
+           System.out.println(ll4.pop());
+
+
+
+
+
     }
 }
