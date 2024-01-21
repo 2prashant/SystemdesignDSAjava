@@ -46,7 +46,7 @@ public class HM_Vs_WHM
 
            System.gc();//invocking garbage collector
 
-            System.out.println(hm);
+       //     System.out.println(hm);
 
            System.out.println("Last Line");
      }    
