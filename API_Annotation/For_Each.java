@@ -21,6 +21,20 @@ public class For_Each
         //      System.out.println(i);
         //  }
 
+        // Consumer<Integer> cons=new Consumer<Integer>()
+        // {
+        //     @Override
+        //     public void accept(Integer i)
+        //     {
+        //         System.out.println(i);
+        //     }
+        // }
+
+        // Consumer<Integer> cons=i->System.out.println(i);
+
+        // System.out.println(cons);
+        
+
         list2.forEach(n->System.out.println(n));
     }
 }
