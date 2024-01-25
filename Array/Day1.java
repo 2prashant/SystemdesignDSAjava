@@ -38,6 +38,17 @@ public class Day1
           int[] arr2=arr1;
           int[] arr3=c;
           System.out.println(arr2);
+
+        int [][] arr4=new int[3][2];
+
+        int [][] arr5=new int[3][];
+        arr5[0]=new int[5];
+        arr5[1]=new int[3];
+        arr5[2]=new int[1];
+        arr5[0][0]=10;
+        arr5[2][3]=5;
+
+        int [][]arr6={{10,20},{100,200,300},{1000}};
           
 
     }
