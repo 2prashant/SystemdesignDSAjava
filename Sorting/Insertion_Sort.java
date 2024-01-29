@@ -7,7 +7,7 @@ public class Insertion_Sort
         {
               int pivot=arr[i];
               int j=i-1;
-              while(arr[j]>pivot && j>=0)
+              while(j>=0 && arr[j]>pivot )
               {
                   arr[j+1]=arr[j];
                   j--;
